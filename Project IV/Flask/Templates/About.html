@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-10">
+  <meta name="viewport" content="width=device-width, initial-scale=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Index.css">
+</head>
+
+<right>
+<!-- Navigation -->
+<div class="topnav">
+  <a href="{{ url_for('Index') }}">Home</a> 
+  <a href="{{ url_for('Analytics') }}">Internal Competitive Analysis</a> 
+  <a href="{{ url_for('Survey') }}">Analytics Input - Take our Survey</a> </div>
+<!-- Logo and backround image -->
+
+<div
+class="text-center"
+style="background-image: url('static/Reaper2.png');
+background-position: left-top;
+background-repeat: no-repeat;
+background-color: rgb(129, 33, 57);
+padding-top: 50px ;
+padding-bottom: 50px ;
+max-width: 3000px;">
+
+<body>
+
+  <br> <br>
+
+<!-- Meet the team -->
+<h1 style="color:rgb(5, 5, 14);" class="header"><b>Meet the Team </b></h1>
+<br>
+<center>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="static/SGT.jpg" style="width:15%">
+      <div class="container">
+        <h2 style="color:black"
+                  <h2>Stephanie Thurstone</h2>
+          <p class="title">Web Design, Walmart ETL, Machine Learning, Flask Specialist/Heroku and Project Management</p>
+          <p>sgillstone@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="static/Tanya.jpg" style="width:15%">
+        <div class="container">
+          <h2 style="color:black"
+          <h2>Tanya Adams</h2>
+          <p class="title"> Grocery ETL, Visualization/Tableu</p>
+          <p>TanyaAdams@test.com</p>
+        </div>
+      </div>
+    </div>
+
+        </center>
+</body>
+
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</html>

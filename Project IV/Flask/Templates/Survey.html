@@ -1,0 +1,170 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-10">
+      <meta name="viewport" content="width=device-width, initial-scale=0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Survey</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+<!-- Navigation Ribbon -->
+<div class="topnav">
+    <a href="{{ url_for('Index') }}">Home</a> 
+    <a href="{{ url_for('About') }}">About</a> 
+    <a href="{{ url_for('Analytics') }}">Internal Competitive Analysis</a> 
+
+
+<!-- Logo and backround image -->
+<div
+class="text-center"
+style="background-image: url('static/Reaper2.png');
+background-position: left-top;
+background-repeat: no-repeat;
+background-color: #0d0e0de5;
+padding-top: 50px ;">
+  
+<head>
+    <meta charset="UTF-10">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Survey
+    </title>
+ 
+    <style>
+
+        body {
+            background-color: rgb(129, 33, 57);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 40px 20px;
+            box-shadow: rgb(129, 33, 57);
+        }
+
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid rgb(129, 33, 57);
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: rgb(129, 33, 57);
+            border: 1px solid rgb(5, 5, 14);
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+  
+<body>
+    <form id="form">
+ 
+        <!-- Q1 -->
+
+        <div class="form-control">
+            <label for="gender" id="label-gender">
+                Gender
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your gender" />
+        </div>
+        <br><br>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+        <br><br>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+               Do you prefer in person shopping or online?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="in person">In Person</option>
+                <option value="Online">Online</option>
+            </select>
+        </div>
+        <br><br>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+               About how much do you spend at brick and mortar stores annually?
+            </label>
+             
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="money"
+                   placeholder="Enter estimated amount" />
+        </div>
+
+        <br><br><br>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                About how much do you spend online annually?
+            </label>
+             
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="money"
+                   placeholder="Enter estimated amount" />
+        </div>
+        <br><br>
+  
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    
+  
+<form action="mailto:sgillstone@gmail.com"></form>
+    
+</form>
+</body>
+  
+</html>

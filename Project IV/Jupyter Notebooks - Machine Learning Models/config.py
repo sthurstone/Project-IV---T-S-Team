@@ -1,0 +1,4 @@
+API_Key="01153291092e42ada567ed681f4f5c5a"
+
+clientId = "tsteamproject-4fceede395a512365accc88c919eef345185079331640241536"
+clientSecret = "KeWiXTbAILECNNYAq4KV_FZbW-PbPLeSgiJ6e5a6"
