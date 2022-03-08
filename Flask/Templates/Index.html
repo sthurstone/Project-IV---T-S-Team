@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Retail Reaper</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="Index.css"> -->
+  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Index.css') }}"">
+
+</head>
+
+<body>
+
+<!-- ///////////////////////////////////////////////// -->
+
+<!-- Navigation -->
+<div class="topnav">
+  <a href="{{ url_for('Index') }}">Home</a> 
+  <a href="{{ url_for('About') }}">About</a> 
+  <a href="{{ url_for('Analytics') }}">Internal Competitive Analysis</a> 
+  <a href="{{ url_for('Survey') }}">Analytics Input - Take our Survey</a> </div>
+  <center>
+
+<h1 style="color:rgb(5, 5, 14);" class="header"><b>Brick & Mortar vs. ECommerce </b></h1>
+<h4 style="color: rgb(129, 33, 57);"subheader"><b><i>Big Box Stores Pivoting to Stay Relevant</i> </i></b></h4>
+<h4 style="color: rgb(129, 33, 57);"subheader"><b><i>Is live shopping going to be a thing of the past?</i> </i></b></h4>
+<h5 style="color: rgb(5,5,14);"
+              <br>
+</div> </center>
+
+
+<!-- //////////////////////////////////////////// -->
+
+<!-- Logo and backround image -->
+
+<div
+class="text-center"
+style="background-image: url('static/Reaper2.png');
+background-position: left-top;
+background-repeat: no-repeat;
+background-color: #0d0e0d13;
+padding-top: 50px ;
+padding-bottom: 50px;
+max-width: 3000px;">
+
+<p style="color:rgb(226, 141, 44);" class="text">
+  Walmart leads retail giants as they expand their scope to strategically <br>
+  initiate a market for sellers such as that of their direct competition, Amazon. <br>
+  The goal of our Analysis thru Machine Learning is to take the leading retail giant's <br>
+  public data (the very little amount there is) and use that to determine if Brick and Mortar <br>
+  is suffering due to ECommerce sales. To accomplish this we are utilizing Random Forest, Linear Regression and <br>
+  Logistic Regression Models, predicting future sales and comparing. 
+
+<br>  </B>
+<BR><BR> <B> Please help us in collecting more reliable, public data by completing our survey.</B>
+  </b>  </p>
+
+<!-- Show top ten NRF  -->
+<img src="static/NRF.png" align="Center">
+<div class="background">
+<div class="d-flex justify-content-left align-items-center h-100">
+<div class="text">
+
+<!-- ///////////////////////////////////////////////// -->
+
+<!-- Navigation Bar -->
+
+<style>
+  a:link, a:visited {
+    background-color: #0d0e0de5;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color:rgba(180, 244, 248, 0.705);
+  }
+  </style> 
+
+    
+<!-- ///////////////////////////////////////////////// -->
+
+
+<!-- Leaflet -->
+          
+  <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src=""></script> -->
+  
+</body>
+
+</html>
